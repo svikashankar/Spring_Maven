@@ -18,6 +18,7 @@ public class UserService {
 		users.put(1, new UserDTO(1, "Ramesh", "ramesh@gmail.com"));
 		users.put(2, new UserDTO(2, "Suresh", "suresh@gmail.com"));
 		users.put(3, new UserDTO(3, "test", "test@gmail.com"));
+                users.put(3, new UserDTO(4, "vikas", "vikas@gmail.com"));
 	}
 
 	public List<UserDTO> getAllUsers() {
